@@ -10,7 +10,7 @@ section .data
     msj1 db "Ingresa datos en el archivo",10
     len_msj1 equ $-msj1 
 
-    archivo db "/home/fabricio/Escritorio/Ensamblador codigos/Ensamblador 2.0/archivos/archivo.txt"
+    archivo db "/home/fabricio/Escritorio/Examen_5/datos.txt"
 section .bss
     texto resb 30
     idarchivo resd 1
